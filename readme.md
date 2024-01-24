@@ -30,3 +30,26 @@ git clone https://github.com/Ringmadat22/WEB-WEB-DEV-BEGINNER-PROJECTS.git
 
 Create a new branch for your feature or bug fix.
 
+git checkout -b feature/new-feature
+
+
+### Make Changes
+
+Make your changes and commit them.
+
+git add .
+git commit -m "Description of changes"
+
+
+### Push Changes
+
+Push your changes to your forked repository.
+
+git push origin feature/new-feature
+
+
+### Create a Pull Request
+
+Create a pull request on the original repository.
+
+
