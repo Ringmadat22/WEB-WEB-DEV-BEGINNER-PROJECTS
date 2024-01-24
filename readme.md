@@ -25,3 +25,8 @@ Clone the repository to your local machine.
 
 git clone https://github.com/Ringmadat22/WEB-WEB-DEV-BEGINNER-PROJECTS.git
 
+
+### Create a Branch
+
+Create a new branch for your feature or bug fix.
+
