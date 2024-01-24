@@ -23,3 +23,5 @@ Click the "Fork" button in the upper right corner of the repository.
 
 Clone the repository to your local machine.
 
+git clone https://github.com/Ringmadat22/WEB-WEB-DEV-BEGINNER-PROJECTS.git
+
