@@ -24,7 +24,7 @@ form {
     height: 300px;
 }
 
-.search{
+#search{
     text-align:right;
     border: none;
     outline: none;
@@ -32,32 +32,5 @@ form {
     height: 60px;
     background: brown;
     caret-color: #fff;
-}
-
-.form-div .div-1{
-    display: flex;
-}
-
-.form-div .div-1>div {
-   border: 1px solid rgba(0, 0, 0, 0.17);
-    background-color: aqua;
-    width: 50px;
-    height: 50px;
-    padding-top: 15px;
-    color: #fff;
-    background-color: gainsboro;
-    cursor: pointer;
-}
-
-.form-div .div-1 .orange {
-    background: orange;
-    color: #fff;
-}
-
-.form-div .div-1 .gray {
-    background: gray;
-}
-
-.form-div .div-1 .zero {
-    width: 100px;
+    padding-right: 20px;
 }
