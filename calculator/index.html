@@ -5,56 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator App</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
 </head>
 <body>
     <main>
-        <div class="container">
+        <div class="container" id="container">
 
-            <form>
+            <form >
 
-                <input type="search" class="search">
-
-                <div class="form-div">
-
-                    <div class="div-1">
-                        <div class="AC gray">AC</div>
-                        <div class="/ gray">/</div>
-                        <div class="% gray">%</div>
-                        <div class="/ orange">/</div>
-                    </div>
-    
-                    <div class="div-1">
-                        <div class="7">7</div>
-                        <div class="8">8</div>
-                        <div class="9">9</div>
-                        <div class="X orange">X</div>
-                    </div>
-    
-                    <div class="div-1">
-                        <div class="4">4</div>
-                        <div class="5">5</div>
-                        <div class="6">6</div>
-                        <div class="- orange">-</div>
-                    </div>
-    
-                    <div class="div-1">
-                        <div class="1">1</div>
-                        <div class="2">2</div>
-                        <div class="3">3</div>
-                        <div class="3 orange">+</div>
-                    </div>
-    
-                    <div class="div-1">
-                        <div class="0 zero">0</div>
-                        <div class=".">.</div>
-                        <div class="= orange">=</div>
-                    </div>
+                <input type="text" id = 'res'>
+                     <div class="btn">
+                        <button value="AC" class="AC gray" onclick="Clear()">AC</button>
+                        <button value="/" class="/ gray"  onclick="Back('←')">←</button>
+                        <button value="%" class="% gray" onclick="Solve('%')" >%</button>
+                        <button value="/" class="/ orange" onclick="Solve('/')" >/</button>
+                        <br>
+                        <button value="7" class="7" onclick="Solve('7')" >7</button>
+                        <button value="8" class="8" onclick="Solve('8')" >8</button>
+                        <button value="9" class="9" onclick="Solve('9')" >9</button>
+                        <button value="X" class="X orange" onclick="Solve('*')">*</button>
+                        <br>
+                        <button value="4" class="4" onclick="Solve('4')" >4</button>
+                        <button value="5" class="5" onclick="Solve('5')" >5</button>
+                        <button value="6" class="6" onclick="Solve('6')" >6</button>
+                        <button value="-" class="- orange" onclick="Solve('-')">-</button>
+                        <br>
+                        <button value="1" class="1" onclick="Solve('1')" >1</button>
+                        <button value="2" class="2" onclick="Solve('2')">2</button>
+                        <button value="3" class="3" onclick="Solve('3')">3</button>
+                        <button value="+" class="3 orange" onclick="Solve('+')">+</button>
+                        <br>
+                        <button value="0" class="0 zero" onclick="Solve('0')">0</button>
+                        <button value="." class="." onclick="Solve('.')">.</button>
+                        <button value="=" class="= orange" onclick="Result('=')">=</button>
 
                 </div>
-                
+    
             </form>
-
-            
 
         </div>
 
