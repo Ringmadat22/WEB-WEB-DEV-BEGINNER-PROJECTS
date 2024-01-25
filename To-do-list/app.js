@@ -12,3 +12,11 @@ todoForm.addEventListener('submit', function(event) {
 
     todoInput.value = '';
 });
+
+function addTask(task) {
+    const listItem = document.createElement('li');
+    listItem.textContent = task;
+
+
+    todoList.appendChild(listItem);
+}
