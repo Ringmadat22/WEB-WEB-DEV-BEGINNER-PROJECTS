@@ -24,6 +24,10 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
+
+  #todo-form {
+    padding-bottom: 20px;
+  }
   
   #todo-form input[type="text"] {
     width: 70%;
@@ -31,6 +35,7 @@ body {
     border: 2px solid #ddd;
     border-radius: 4px;
     margin-right: 10px;
+    outline: none;
   }
   
   #todo-form button {
@@ -61,4 +66,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  h1 {
+    padding-bottom: 30px;
   }
