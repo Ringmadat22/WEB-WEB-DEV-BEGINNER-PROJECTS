@@ -21,16 +21,16 @@ form {
     display: flex;
     flex-direction: column;
     width: 300px;
-    height: 400px;
+    height: 440px;
 }
 
 #search{
     text-align:right;
     border: 1px solid black;
     outline: none;
-    width: 90%;
+    width: 87%;
     height: 70px;
-    background: rgb(231, 226, 226);
+    background: rgb(211, 219, 226);
     caret-color: #fff;
     padding-right: 20px;
     caret-color: black;
@@ -71,10 +71,17 @@ form {
 }
 
 .btn .btn-div .zero {
-    width: 100%;
+    width: 77.8%;
 }
 
 .btn-div-last {
     display: flex;
 }
 
+.btn .btn-div .dot {
+    width: 100px;
+}
+
+.btn .btn-div .equal {
+    width: 100px;
+}
