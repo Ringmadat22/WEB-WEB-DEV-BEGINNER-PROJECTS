@@ -14,11 +14,12 @@
             <form >
 
                 <input type="text"  id = 'search'>
-                     <div class="btn">
+
+                    <div class="btn">
 
                         <div class="btn-div">
                             <input  type="button" value="AC" class="AC gray" onclick="Clear()">
-                            <input  type="button" value="/" class="/ gray"  onclick="Back('←')">
+                            <input  type="button" value="←" class="← gray"  onclick="Back('←')">
                             <input  type="button" value="%" class="% gray" onclick="Solve('%')" >
                             <input  type="button" value="/" class="/ orange" onclick="Solve('/')" >
                         </div>
@@ -27,7 +28,7 @@
                             <input  type="button" value="7" class="7" onclick="Solve('7')" >
                             <input  type="button" value="8" class="8" onclick="Solve('8')" >
                             <input  type="button" value="9" class="9" onclick="Solve('9')" >
-                            <input  type="button" value="X" class="X orange" onclick="Solve('*')">
+                            <input  type="button" value="*" class="* orange" onclick="Solve('*')">
                         </div>
 
                          <div class="btn-div">
@@ -44,12 +45,14 @@
                             <input  type="button" value="+" class="3 orange" onclick="Solve('+')">
                         </div>
 
-                        <div class="btn-div">
+                        <div class="btn-div btn-div-last">
                             <input  type="button" value="0" class="0 zero" onclick="Solve('0')">
                             <input  type="button" value="." class="." onclick="Solve('.')">
                             <input  type="button" value="=" class="= orange" onclick="Result('=')">
     
                         </div>
+
+                    </div>
                        
                 </div>
     
