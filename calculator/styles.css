@@ -34,3 +34,16 @@ form {
     caret-color: #fff;
     padding-right: 20px;
 }
+
+.btn {
+    height: 100%;
+    width: 100%;
+}
+
+.btn .gray {
+    background-color: gray;
+}
+
+input[type="button"] {
+    cursor: pointer;
+}
