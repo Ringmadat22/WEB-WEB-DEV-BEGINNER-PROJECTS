@@ -15,8 +15,6 @@ body {
     background: linear-gradient(to right, #fa6dfa, #75ffff);
     color: #333;
   }
-  
-  
   #todo-app {
     width: 80%;
     max-width: 400px;
