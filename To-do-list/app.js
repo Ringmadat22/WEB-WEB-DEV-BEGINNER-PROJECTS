@@ -13,6 +13,7 @@ todoForm.addEventListener('submit', function(event) {
   }
   todoInput.value = '';
   addTask(newTask);
+  
 });
 
 function addTask(task) {
