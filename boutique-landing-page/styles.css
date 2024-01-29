@@ -103,9 +103,6 @@ main {
     color: #fff;
 }
 
-.hero p {
-    color: #000;
-}
 .info {
     display: flex;
     justify-content: space-evenly;
@@ -132,7 +129,7 @@ main {
     display: flex;
 }
 
-.info-main>div>div h1 , p {
+.info-main>div>div h1  {
     color: #fff;
 }
 
@@ -145,4 +142,5 @@ main {
 
 .info-main>div>div p {
     padding-top: 15px;
+    color: #000;
 }
