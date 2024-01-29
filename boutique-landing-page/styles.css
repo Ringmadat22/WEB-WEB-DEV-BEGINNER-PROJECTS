@@ -121,3 +121,7 @@ main {
     margin: 2px 100px;
 }
 
+.info-main>div>div {
+    display: flex;
+}
+
