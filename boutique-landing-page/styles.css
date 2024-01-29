@@ -9,10 +9,14 @@ header {
     background-color: aqua;
 }
 
+.logo {
+    padding-top: 12px;
+}
 nav {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+    padding: 7px 0 0 0 ;
 }
 
 nav a {
@@ -26,5 +30,9 @@ nav ul {
 
 nav ul li {
     list-style: none;
-    padding: 0px 20px;
+    padding: 5px 20px;
+}
+
+.navbar-end ul {
+    padding: 7px;
 }
