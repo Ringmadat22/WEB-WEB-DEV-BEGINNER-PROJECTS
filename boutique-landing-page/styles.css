@@ -103,3 +103,21 @@ main {
     display: flex;
     justify-content: space-evenly;
 }
+
+.info {
+    height: 13vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-main>div {
+    margin: 2px 100px;
+}
+
