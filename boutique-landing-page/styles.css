@@ -22,6 +22,8 @@ nav {
 nav a {
     color: #000000;
     text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9rem;
 }
 
 nav ul {
