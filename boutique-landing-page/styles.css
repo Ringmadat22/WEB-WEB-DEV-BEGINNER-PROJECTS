@@ -14,11 +14,12 @@ header {
 .logo {
     padding-top: 12px;
 }
+
 nav {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    padding: 7px 0 0 0 ;
+    padding: 30px 0 0 0 ;
 }
 
 nav a {
@@ -99,6 +100,9 @@ main {
     color: #fff;
 }
 
+.hero p {
+    color: #000;
+}
 .info {
     display: flex;
     justify-content: space-evenly;
@@ -125,3 +129,17 @@ main {
     display: flex;
 }
 
+.info-main>div>div h1 , p {
+    color: #fff;
+}
+
+.info-main>div>div h1 {
+    font-size: 2rem;
+    border: 1px solid gray;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.info-main>div>div p {
+    padding-top: 15px;
+}
