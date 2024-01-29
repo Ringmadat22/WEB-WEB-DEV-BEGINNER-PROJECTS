@@ -146,21 +146,3 @@ main {
     text-transform: uppercase;
 }
 
-.arrivals {
-    width: 100%;
-    background-color: antiquewhite;
-}
-
-.arrivals img {
-    width: 100px;
-    height: 300px;
-}
-
-.arrivals-main {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.arrivals>.arrivals-main>div {
-    background-color: aliceblue;
-}
