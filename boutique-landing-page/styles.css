@@ -11,7 +11,20 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: center;
 }
 
+nav a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 20px;
+}
