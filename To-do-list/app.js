@@ -3,6 +3,7 @@ const todoInput = document.getElementById('todo-input');
 const todoList = document.getElementById('todo-list');
 
 todoForm.addEventListener('submit', function(event) {
+  
   event.preventDefault();
   const newTask = todoInput.value;
 
@@ -12,6 +13,7 @@ todoForm.addEventListener('submit', function(event) {
   }
   todoInput.value = '';
   addTask(newTask);
+  
 });
 
 function addTask(task) {
