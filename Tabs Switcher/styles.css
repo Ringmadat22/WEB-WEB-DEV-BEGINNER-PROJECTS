@@ -19,7 +19,7 @@ body {
 main {
     width: 800px;
     background-color: inherit;
-    background: linear-gradient(to right, #fa6dfa, #75ffff);
+    background: linear-gradient(to right, #75ffff, #fa6dfa);
     padding: 50px;
     border-radius: 20px;
 }
@@ -34,6 +34,7 @@ h1 {
 .container>div{
     width: 100%;
     padding: 10px;
+    
 }
 
 a {
