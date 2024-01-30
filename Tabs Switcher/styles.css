@@ -19,7 +19,7 @@ body {
 main {
     width: 800px;
     background-color: inherit;
-    border: 1px solid gray;
+    background: linear-gradient(to right, #fa6dfa, #75ffff);
     padding: 50px;
     border-radius: 20px;
 }
@@ -42,9 +42,12 @@ a {
     font-size: 1.2rem;
     transition: all ease 0.3s;
     background-color: none;
-    padding: 15px;
+    padding: 15px 30px;
     border-radius: 7px;
     margin-top: 20px;
+    cursor: pointer;
+    margin-right: 30px;
+    width: 100%;
 }
 
 #active {
@@ -53,7 +56,7 @@ a {
     font-size: 1.2rem;
     transition: all ease 0.3s;
     background-color: #75ffff;
-    padding: 15px;
+    padding: 15px 30px;
     border-radius: 7px;
     margin-top: 20px;
 }
@@ -64,7 +67,7 @@ a:hover {
     font-size: 1.2rem;
     transition: all ease 0.3s;
     background-color: #75ffff;
-    padding: 15px;
+    padding: 15px 30px;
     border-radius: 7px;
     margin-top: 20px;
 }
