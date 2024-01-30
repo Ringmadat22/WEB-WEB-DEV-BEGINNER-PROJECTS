@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body {
@@ -14,13 +15,25 @@ body {
 }
 
 main {
-    width: 1000px;
+    width: 800px;
     background-color: inherit;
     border: 1px solid gray;
     padding: 50px;
     border-radius: 20px;
 }
 
+h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
 .container {
     display: flex;
+    justify-content: space-between;
+}
+
+.container>div{
+    border-top:1px solid black ;
+    width: 100%;
+    padding: 10px;
 }
