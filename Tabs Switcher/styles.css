@@ -21,4 +21,6 @@ main {
     border-radius: 20px;
 }
 
-
+.container {
+    display: flex;
+}
