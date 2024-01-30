@@ -19,7 +19,7 @@ body {
 main {
     width: 800px;
     background-color: inherit;
-    background: linear-gradient(to right, #75ffff, #fa6dfa);
+    border: 2px solid rgba(128, 128, 128, 0.365);
     padding: 50px;
     border-radius: 20px;
 }
@@ -31,10 +31,10 @@ h1 {
 }
 
 
-.container>div{
-    width: 100%;
-    padding: 10px;
-    
+.tabs {
+    margin-bottom: 40px;
+    border-bottom:1px solid gray ;
+    padding-bottom: 50px;
 }
 
 a {
@@ -76,4 +76,9 @@ a:hover {
 
 .tabcontent {
     display: none;
+}
+
+
+.tabcontent>div {
+    margin-bottom: 30px;
 }
