@@ -69,15 +69,6 @@ a:hover {
     margin-top: 20px;
 }
 
-.games-main, .movies-main, .books-main {
-    padding-top: 30px;
-    line-height: 20px;
-}
-
-.games-main>div, .movies-main>div, .books-main>div {
-    margin-bottom: 30px;
-    width: 100%;
-}
 
 .tabcontent {
     display: none;
