@@ -1,28 +1,30 @@
-const passwordBox = document.getElementById("password");
-const length = 12;
+function genPassword() {
+    const passwordLength = 40; 
 
-const upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-const lowerCase = "abcdefghjklmnopqrstuvwxyz";
-const number = "0123456789";
-const symbol = "!@#$%^&*(){}[]<>?/\|=-";
+    const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=[]{}|;:'\"<>,.?/"
 
-const allChars = upperCase + lowerCase + number +symbol
-
-function createPassword(){
+    
     let password = "";
-    password += upperCase[Math.floor(Math.random() * upperCase.length)];
-    password += lowerCase[Math.floor(Math.random() * lowerCase.length)];
-    password += number[Math.floor(Math.random() * number.length)];
-    password += symbol[Math.floor(Math.random() * symbol.length)];
 
-    while(length > password.length){
-        password += allChars[Math.floor(Math.random() * allChars.length)];
+    for (let i = 0; i < passwordLength; i++) {
+        const randomIndex = Math.floor(Math.random() * chars.length);
+        password += chars.charAt(randomIndex);
     }
-    passwordBox.value = password;
-}
 
+    document.getElementById("password").value = password;
+}
 
 function copyPassword() {
-    passwordBox.select();
+    const passwordField = document.getElementById("password");
+
+    passwordField.select();
     document.execCommand("copy");
+    
+    window.getSelection().removeAllRanges();
 }
+
+function copyPassword() {
+    var copyText = document.getElementById("password");
+    copyText.select();
+    document.execCommand("copy");  
+  }
