@@ -10,67 +10,73 @@
 <body>
     <main>
         <h1>Categories</h1>
-            <div class="container">
-                <div class="movies-tab">
-                    <a href="" class="active">Movies</a>
-                    <div class="movies-main">
-                        <div>
-                            <h3>Black Clover</h3>
-                            <p>Anime</p>
-                        </div>
-                        <div>
-                            <h3>Black Panther</h3>
-                            <p>Action</p>
-                        </div>
+        <div class="tabs">
+            <a class="tablinks" onclick="openCategory(event, 'movies')">Movies</a>
+            <a class="tablinks" onclick="openCategory(event, 'games')">Games</a>
+            <a class="tablinks" onclick="openCategory(event, 'books')">Books</a>
+          </div>
+          
+          <div class="container">
+                          <div class="movies-tab">
+                     
+                              <div id="movies" class="tabcontent">
+                                  <div>
+                                      <h3>Black Clover</h3>
+                                      <p>Anime</p>
+                                  </div>
+                                  <div>
+                                      <h3>Black Panther</h3>
+                                      <p>Action</p>
+                                  </div>
+          
+                                  <div>
+                                      <h3>365 Days</h3>
+                                      <p>Romance & Mafia</p>
+                                  </div>
+          
+                              </div>
+                          </div>
+          
+                          <div class="games-tab">
+                                <div id="games" class="tabcontent">
+                                  <div>
+                                      <h3>CODM</h3>
+                                      <p>Activision</p>
+                                  </div>
+                                  <div>
+                                      <h3>PUBG </h3>
+                                      <p>Krafton Inc.</p>
+                                  </div>
+          
+                                  <div>
+                                      <h3>Fortnight</h3>
+                                      <p>Epic Games</p>
+                                  </div>
+          
+                              </div>
+                          </div>
+          
+                          <div class="books-tab">
+                                <div id="books" class="tabcontent">
+                                  <div>
+                                      <h3>Atomic Habits</h3>
+                                      <p>James Clear</p>
+                                  </div>
+                                  <div>
+                                      <h3>48 Laws of Power</h3>
+                                      <p>Robert Green</p>
+                                  </div>
+          
+                                  <div>
+                                      <h3>Poor Dad Rich Dad</h3>
+                                      <p>Robert Kiyosaki</p>
+                                  </div>
+          
+                              </div>
+                          </div>
+                      </div>
 
-                        <div>
-                            <h3>365 Days</h3>
-                            <p>Romance & Mafia</p>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="games-tab">
-                    <a href="">GAMES</a>
-                    <div class="games-main">
-                        <div>
-                            <h3>CODM</h3>
-                            <p>Activision</p>
-                        </div>
-                        <div>
-                            <h3>PUBG </h3>
-                            <p>Krafton Inc.</p>
-                        </div>
-
-                        <div>
-                            <h3>Fortnight</h3>
-                            <p>Epic Games</p>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="books-tab">
-                    <a href="">BOOKS</a>
-                    <div class="books-main">
-                        <div>
-                            <h3>Atomic Habits</h3>
-                            <p>James Clear</p>
-                        </div>
-                        <div>
-                            <h3>48 Laws of Power</h3>
-                            <p>Robert Green</p>
-                        </div>
-
-                        <div>
-                            <h3>Poor Dad Rich Dad</h3>
-                            <p>Robert Kiyosaki</p>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
     </main>
+    
 </body>
 </html>

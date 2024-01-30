@@ -30,10 +30,6 @@ h1 {
     padding-left: 8px;
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
-}
 
 .container>div{
     width: 100%;
@@ -51,7 +47,7 @@ a {
     margin-top: 20px;
 }
 
-.active {
+#active {
     color:  #fa6dfa;
     text-decoration: none;
     font-size: 1.2rem;
@@ -83,6 +79,6 @@ a:hover {
     width: 100%;
 }
 
-.games-main, .books-main {
+.tabcontent {
     display: none;
 }
