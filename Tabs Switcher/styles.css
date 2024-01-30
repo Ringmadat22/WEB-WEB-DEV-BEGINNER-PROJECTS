@@ -6,12 +6,14 @@
 }
 
 body {
-    background-color: aliceblue;
+    background: linear-gradient(to right, #fa6dfa, #75ffff);
     height: 80vh;
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
+    color: #fff;
+    font-size: 1rem;
 }
 
 main {
@@ -25,6 +27,7 @@ main {
 h1 {
     font-size: 2rem;
     margin-bottom: 30px;
+    padding-left: 8px;
 }
 
 .container {
@@ -33,15 +36,53 @@ h1 {
 }
 
 .container>div{
-    border-top:1px solid black ;
     width: 100%;
     padding: 10px;
 }
 
 a {
-    color: #000;
+    color:  #fa6dfa;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.2rem;
+    transition: all ease 0.3s;
+    background-color: none;
+    padding: 15px;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+.active {
+    color:  #fa6dfa;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: all ease 0.3s;
+    background-color: #75ffff;
+    padding: 15px;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+a:hover {
+    color:  #fa6dfa;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: all ease 0.3s;
+    background-color: #75ffff;
+    padding: 15px;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+.games-main, .movies-main, .books-main {
+    padding-top: 30px;
+    line-height: 20px;
+}
+
+.games-main>div, .movies-main>div, .books-main>div {
+    margin-bottom: 30px;
     width: 100%;
-    padding-bottom: 50px;
+}
+
+.games-main, .books-main {
+    display: none;
 }
