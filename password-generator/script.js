@@ -1,12 +1,17 @@
 function genPassword() {
-    const passwordLength = 40; 
+
+    //YOu can choice the password length// 
+    const passLength = 5;
+
+    //This are the characters that we'll use for generating our password you can even use your name like this const chars = "Ringo" 
 
     const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=[]{}|;:'\"<>,.?/"
 
-    
     let password = "";
 
-    for (let i = 0; i < passwordLength; i++) {
+    //here we are using the loop for method
+
+    for (let i = 0; i < passLength; i++) {
         const randomIndex = Math.floor(Math.random() * chars.length);
         password += chars.charAt(randomIndex);
     }
@@ -15,16 +20,7 @@ function genPassword() {
 }
 
 function copyPassword() {
-    const passwordField = document.getElementById("password");
-
-    passwordField.select();
-    document.execCommand("copy");
-    
-    window.getSelection().removeAllRanges();
-}
-
-function copyPassword() {
     var copyText = document.getElementById("password");
-    copyText.select();
-    document.execCommand("copy");  
-  }
+    copyText.Selected();
+    document.execCommand("copy");
+}
