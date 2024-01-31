@@ -1,8 +1,18 @@
-const display = document.getElementsByClassName("counter-display");
-const increment = document.getElementsByClassName("increment");
-const decrement = document.getElementsByClassName("decrement");
-const reset = document.getElementsByClassName("reset");
+const display = document.getElementByClassName(".counter-display");
+const increment = document.getElementByClassName(".increment");
 
-function addNumber() {
-    
+
+increment.addEventListener('click', increment);
+increment.addEventListener('clicl', reset);
+
+const value = 0;
+
+function increment() {
+    value += 1;
+    display.textContent.value
+}
+
+function reset() {
+    value = 0;
+    display.textContent.value
 }
