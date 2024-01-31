@@ -21,8 +21,16 @@ main {
 }
 
 h1 {
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
+
+.input {
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
 input {
     padding: 10px 15px;
     border: 1px solid gray;
