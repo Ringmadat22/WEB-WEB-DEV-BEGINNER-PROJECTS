@@ -1,26 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Counter-app</title>
-    <link rel="stylesheet" href="styles.css">
+	<title>Counter App</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <main>
+       
         <div class="container">
+            
+            <h1>Counter App</h1>
 
-        <h1>Counter App</h1>
-            <div class="input">
-                <h2 class="counter-display">0</h2>
-            </div>
+            <div id="counter-value">0</div>
 
             <div class="buttons">
-                <button id="btn1" class="increment">Increment</button>
-                <button id="btn3" class="reset" >Reset</button>
-                <button id="btn2" class="decrement" >Decrement</button>
+                <button id="increment-btn">+</button>
+                <button class="reset" id="reset">Reset</button>
+                <button id="decrement-btn">-</button>
             </div>
+
         </div>
+
     </main>
+	
+
+	<script src="script.js"></script>
 </body>
+
 </html>

@@ -22,14 +22,10 @@ main {
 
 h1 {
     padding-bottom: 30px;
+    font-size: 2rem;
+    text-align: center;
 }
 
-.input {
-    display: flex;
-    height: inherit;
-    justify-content: center;
-    margin-bottom: 30px;
-}
 
 input {
     padding: 10px 15px;
@@ -40,6 +36,12 @@ input {
     margin-bottom: 40px;
 }
 
+#counter-value {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+}
 .buttons {
     display: flex;
     justify-content: space-between;

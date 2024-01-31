@@ -1,18 +1,26 @@
-const display = document.getElementByClassName(".counter-display");
-const increment = document.getElementByClassName(".increment");
+let counter = 0;
 
+const counterValue = document.getElementById('counter-value');
+const incrementBtn = document.getElementById('increment-btn');
+const decrementBtn = document.getElementById('decrement-btn');
+const resetBtn = document.querySelector('#reset');
 
-increment.addEventListener('click', increment);
-increment.addEventListener('clicl', reset);
+// To increment the value of counter
+incrementBtn.addEventListener('click', () => {
+	counter++;
+	counterValue.innerHTML = counter;
+});
 
-const value = 0;
+// To decrement the value of counter
+decrementBtn.addEventListener('click', () => {
+	counter--;
+	counterValue.innerHTML = counter;
+});
 
-function increment() {
-    value += 1;
-    display.textContent.value
-}
+// To reset the counter to zero
+resetBtn.addEventListener('click', reset);
 
 function reset() {
-    value = 0;
-    display.textContent.value
+	counter = 0;
+	counterValue.innerHTML = counter;
 }
