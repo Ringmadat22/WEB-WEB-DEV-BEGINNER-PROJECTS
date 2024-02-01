@@ -19,6 +19,7 @@ h1 {
     display: flex;
     padding: 20px;
     border: 1px solid red;
+    width: 400px;
 }
 
 .signup {
@@ -26,7 +27,7 @@ h1 {
     flex-direction: column;
     background: linear-gradient(to right, #fa6dfa, #75ffff);;
     padding: 40px 10px;
-    width: 300px;
+    width: 100%;
 }
 
 input {
@@ -34,4 +35,10 @@ input {
     border: 1px solid ;
     margin: 10px 15px;
     outline: none;
+    width: 100%;
+}
+
+button {
+    padding: 20px 40px;
+    cursor: pointer;
 }
