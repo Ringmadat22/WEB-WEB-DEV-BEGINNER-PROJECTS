@@ -5,5 +5,33 @@
 }
 
 main {
-    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    border: 1px solid red;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #fa6dfa, #75ffff);;
+    padding: 40px 10px;
+    width: 300px;
+}
+
+input {
+    padding: 15px 15px;
+    border: 1px solid ;
+    margin: 10px 15px;
+    outline: none;
 }
