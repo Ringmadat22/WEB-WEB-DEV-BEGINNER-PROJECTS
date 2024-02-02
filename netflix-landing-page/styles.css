@@ -7,4 +7,27 @@
 header {
     background-image: url(images/5.jpeg);
     height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo {
+    padding: 50px 100px;
+    color: red;
+    font-size: 1.3rem;
+}
+
+header .right-navbar {
+    padding: 50px 100px;
+}
+
+header .right-navbar button {
+    padding: 10px 15px;
+    background-color: red;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 7px;
+    outline: none;
+    cursor: pointer;
+    border: none;
 }
