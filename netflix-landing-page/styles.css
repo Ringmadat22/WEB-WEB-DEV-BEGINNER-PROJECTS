@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 html  {
@@ -10,7 +11,13 @@ html  {
 
 header {
     background-image: url(images/5.jpeg);
-    height: 70vh;
+    height: 75vh;
+    border-bottom: 10px solid gray;
+}
+
+.header-container {
+    background-color: #0000009e;
+    height: 75vh;
 }
 
 .navbar {
@@ -19,13 +26,13 @@ header {
 }
 
 .logo {
-    padding: 50px 100px;
+    padding: 10px 100px;
     color: red;
     font-size: 1.3rem;
 }
 
 header .right-navbar {
-    padding: 50px 90px;
+    padding: 20px 90px;
 }
 
 header .right-navbar button {
@@ -37,4 +44,16 @@ header .right-navbar button {
     outline: none;
     cursor: pointer;
     border: none;
+}
+
+.hero {
+    background-color: antiquewhite;
+    padding: 30px 60px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.hero h1 {
+    color: #fff;
+    font-size: 3rem;
 }
