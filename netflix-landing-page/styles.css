@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 
+html  {
+    background-color: #000;
+}
+
 header {
     background-image: url(images/5.jpeg);
-    height: 100vh;
+    height: 70vh;
     display: flex;
     justify-content: space-between;
 }
