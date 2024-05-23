@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+#timer {
+    font-size: 3rem;
+    margin: 20px 0;
+    text-align: center;
+}
+
+button {
+    padding: 10px 45px;
+    margin: 0 5px;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#start {
+    background-color: green;
+}
+
+#start:hover {
+    background-color: rgb(2, 74, 2); 
+}
+
+#stop {
+    background-color: red;
+}
+
+#stop:hover {
+    background-color: rgb(108, 3, 3);
+}
+
+#reset {
+    background-color:black;
+}
+
+#reset:hover {
+    background-color:rgb(63, 62, 62);
+}
