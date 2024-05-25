@@ -49,7 +49,7 @@ body {
     };
 }
 
-.cursor {
+.cursor::before {
     content: "";
     position: absolute;
     width: 50px;
@@ -57,5 +57,5 @@ body {
     border-radius: 50%;
     background: #2696E8;
     opacity: 0.2;
-    transform: translate(-30);
+    transform: translate(-30%);
 }
