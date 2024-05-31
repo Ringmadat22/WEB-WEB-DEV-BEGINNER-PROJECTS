@@ -58,6 +58,10 @@ body {
     cursor: pointer;
     display: none;
   }
+
+  #search-icon {
+    cursor: pointer;
+  }
   
   #check {
     display: none;
